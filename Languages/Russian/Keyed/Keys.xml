@@ -8,8 +8,8 @@
   <Locks_AnomaliesIgnoreLocks>Аномалии игнорируют блокировки</Locks_AnomaliesIgnoreLocks>
   <Locks_AnomaliesIgnoreLocks_Description>При отключении аномалий будут соблюдены настройки дверных замков.</Locks_AnomaliesIgnoreLocks_Description>
 
-  <Locks_Label>переть</Locks_Label>
-  <Locks_Description>После разблокировки все пешки смогут пользоваться этой дверью.\n[ПКМ для дополнительных настроек]</Locks_Description>
+  <Locks_Label>Переключить</Locks_Label>
+  <Locks_Description>ЛКМ: Переключить состояние.\nПКМ: Дополнительные параметры</Locks_Description>
 
   <Locks_PrisonBreak>Сбегающие соблюдают замки</Locks_PrisonBreak>
   <Locks_SlaveRebel>Восставшие соблюдают замки</Locks_SlaveRebel>
@@ -40,10 +40,10 @@
 
   <Locks_LockToggle>Запереть</Locks_LockToggle>
   <Locks_UnlockToggle>Отпереть</Locks_UnlockToggle>
-  <Locks_AllowVisitors>Разрешает гостям использовать</Locks_AllowVisitors>
-  <Locks_ForbidVisitors>Запрещает гостям использовать</Locks_ForbidVisitors>
-  <Locks_AddPetDoor>Разрешите питомцам</Locks_AddPetDoor>
-  <Locks_RemovePetDoor>Запретите питомцам</Locks_RemovePetDoor>
+  <Locks_AllowVisitors>Разрешить гостей</Locks_AllowVisitors>
+  <Locks_ForbidVisitors>Запретить гостей</Locks_ForbidVisitors>
+  <Locks_AddPetDoor>Разрешить питомцам</Locks_AddPetDoor>
+  <Locks_RemovePetDoor>Запретить питомцам</Locks_RemovePetDoor>
   <Locks_AddPensDoor>Установить как вход в загон</Locks_AddPensDoor>
   <Locks_RemovePensDoor>Снять статус входа в загон</Locks_RemovePensDoor>
   <Locks_SetOwners>Назначить владельцев</Locks_SetOwners>
