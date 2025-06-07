@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <Locks_ModName>Замки</Locks_ModName>
+  <Locks_ChildrenLock>Минимальный возраст пешки: {0}</Locks_ChildrenLock>
+  <Lock_ChildrenLock_Description>Минимальный возраст, необходимый человекоподобной пешке для открытия дверей</Lock_ChildrenLock_Description>
+  <Locks_AlwaysPensDoor>Всегда замыкать дверь</Locks_AlwaysPensDoor>
+  <Locks_AlwaysPensDoor_Description>Если эта опция включена, то после строительства у каждой двери будет включена опция "Замкнута".</Locks_AlwaysPensDoor_Description>
+  <Locks_AnomaliesIgnoreLocks>Аномалии игнорируют блокировки</Locks_AnomaliesIgnoreLocks>
+  <Locks_AnomaliesIgnoreLocks_Description>При отключении аномалий будут соблюдены настройки дверных замков.</Locks_AnomaliesIgnoreLocks_Description>
+
+  <Locks_Label>переть</Locks_Label>
+  <Locks_Description>После разблокировки все пешки смогут пользоваться этой дверью.\n[ПКМ для дополнительных настроек]</Locks_Description>
+
+  <Locks_PrisonBreak>Сбегающие соблюдают замки</Locks_PrisonBreak>
+  <Locks_SlaveRebel>Восставшие соблюдают замки</Locks_SlaveRebel>
+
+  <Locks_StatePrefix>Дверь</Locks_StatePrefix>
+  <Locks_StateLocked>Замерта</Locks_StateLocked>
+  <Locks_StateUnlocked>Отперта</Locks_StateUnlocked>
+  <Locks_StateChanging>переключение...</Locks_StateChanging>
+
+  <Locks_ITabLocked>Запереть</Locks_ITabLocked>
+  <Locks_ITabLockedDesc>Если ОТКЛЮЧЕНО: любая пешка, способная открывать двери, сможет пройти.</Locks_ITabLockedDesc>
+  <Locks_ITabVisitorsAllowed>Гости</Locks_ITabVisitorsAllowed>
+  <Locks_ITabVisitorsAllowedDesc>Если ОТКЛЮЧЕНО: союзники и торговцы не смогут пройти через дверь. Настройка не применяется, если установлены владельцы.</Locks_ITabVisitorsAllowedDesc>
+  <Locks_ITabPetDoor>Питомцы</Locks_ITabPetDoor>
+  <Locks_ITabPetDoorDesc>Если ВКЛЮЧЕНО: через дверь могут проходить мелкие животные, например, собаки. Настройка не требуется для дверей без хозяев.</Locks_ITabPetDoorDesc>
+  <Locks_ITabPensDoor>Загон</Locks_ITabPensDoor>
+  <Locks_ITabPensDoorDesc>Если ВКЛЮЧЕНО: животные в загоне не смогут пройти через дверь. Некоторые двери могут не блокировать животных (типа занавесок). Проверьте "roamerCanOpen" в defs.</Locks_ITabPensDoorDesc>
+  <Locks_ITabSlaveDoors>Рабы</Locks_ITabSlaveDoors>
+  <Locks_ITabSlaveDoorsDesc>Если ОТКЛЮЧЕНО: рабы не смогут пройти через дверь. Настройка не применяется, если установлены владельцы.</Locks_ITabSlaveDoorsDesc>
+  <Locks_ITabAnimalAllowed>Животные</Locks_ITabAnimalAllowed>
+  <Locks_ITabAnimalAllowedDesc>Если ОТКЛЮЧЕНО: животные не смогут пройти через дверь. Эта настройка проверяется после настроек загонов и дверей для животных.</Locks_ITabAnimalAllowedDesc>
+  <Locks_ITabChildrenLock>Дети</Locks_ITabChildrenLock>
+  <Locks_ITabChildrenLockDesc>Если ВКЛЮЧЕНО: через эту дверь могут пройти только человекоподобные пешки, достигшие совершеннолетия (проверьте настройки). Действует только на пешек из той же фракции, что и дверь.</Locks_ITabChildrenLockDesc>
+
+
+  <Locks_ITabOwners>Владельцы</Locks_ITabOwners>
+  <Locks_ITabChangeLocksNotification>Колонист должен "Щёлкнуть", чтобы применить!</Locks_ITabChangeLocksNotification>
+
+  <Locks_LockToggle>Запереть</Locks_LockToggle>
+  <Locks_UnlockToggle>Отпереть</Locks_UnlockToggle>
+  <Locks_AllowVisitors>Разрешает гостям использовать</Locks_AllowVisitors>
+  <Locks_ForbidVisitors>Запрещает гостям использовать</Locks_ForbidVisitors>
+  <Locks_AddPetDoor>Разрешите питомцам</Locks_AddPetDoor>
+  <Locks_RemovePetDoor>Запретите питомцам</Locks_RemovePetDoor>
+  <Locks_AddPensDoor>Установить как вход в загон</Locks_AddPensDoor>
+  <Locks_RemovePensDoor>Снять статус входа в загон</Locks_RemovePensDoor>
+  <Locks_SetOwners>Назначить владельцев</Locks_SetOwners>
+  <Locks_ClearOwners>Очистить владельцев</Locks_ClearOwners>
+
+  <Locks_FailOnWrongUser>Замок не принадлежит {0}</Locks_FailOnWrongUser>
+
+  <Locks_AlertLocksCantBeChanged>Нельзя настроить</Locks_AlertLocksCantBeChanged>
+  <Locks_AlertLocksCantBeChangedDesc>Некоторые замки нельзя настроить/переключить, т.к. их владелец не может выполнять переключение\n\n{0}</Locks_AlertLocksCantBeChangedDesc>
+  <Locks_AlertLocksCantBeChangedDefaultDesc>Некоторые замки нельзя настроить/переключить, т.к. их владелец не может выполнять переключение.</Locks_AlertLocksCantBeChangedDefaultDesc>
+
+  <Locks_Cancel>Отмена</Locks_Cancel>
+  <Locks_Copy>Копировать</Locks_Copy>
+  <Locks_Paste>Вставить</Locks_Paste>
+</LanguageData>
