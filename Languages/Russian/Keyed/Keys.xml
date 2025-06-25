@@ -15,8 +15,8 @@
   <Locks_SlaveRebel>Восставшие соблюдают замки</Locks_SlaveRebel>
 
   <Locks_StatePrefix>Дверь</Locks_StatePrefix>
-  <Locks_StateLocked>Замерта</Locks_StateLocked>
-  <Locks_StateUnlocked>Отперта</Locks_StateUnlocked>
+  <Locks_StateLocked>заперта</Locks_StateLocked>
+  <Locks_StateUnlocked>отперта</Locks_StateUnlocked>
   <Locks_StateChanging>переключение...</Locks_StateChanging>
 
   <Locks_ITabLocked>Запереть</Locks_ITabLocked>
